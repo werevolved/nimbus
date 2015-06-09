@@ -1,0 +1,113 @@
+body, html {
+	height: 100%;
+	margin: 0;
+}
+.first { background-image: url(../img/hero-photo.png);
+	height:720px;
+
+}
+
+.navbar {
+	padding-top: 20px;
+	padding-left: 80px; 
+	height: 80px;
+	 background-image:
+    linear-gradient(
+      to right, 
+      red, #f06d06
+    );
+	opacity: 0.9;
+	color: #FFFFFF;
+	font-size: 15px;
+	font: open sans extrabold;
+}
+.headline {
+	padding-top: 112px;
+	text-align: center;
+	font: Open Sans extrabold;
+	font-size: 36px;
+	color: #1A1A1A;
+	line-height: 34.64px;
+}
+.weDo {
+	text-align: center;
+	padding-top: 22px;
+	font: Quicksand Book;
+	font-size: 22px;
+	color: #959595;
+	line-height: 30px;
+}
+.oranges {
+	padding-top: 105px;
+}
+
+
+@media (max-width: 800px){
+
+	.first{
+		max-width: 100%;
+		max-height: 80%;
+	}
+
+	.navbar {
+		padding-top: 20px;
+		line-height: 1em;
+		text-align: center;
+	}
+
+	.nimbus1 {
+		padding-top: 20px;
+		text-align: center;
+	}
+.getYour {
+
+	font-size: 30px;
+	padding-top: 20px;
+	text-align: center;
+	max-width: 100%;
+}
+.willGet {
+	font-size: 20px;
+	padding-top: 10px;
+}
+.btn-warning {
+	margin-left: 90px;
+	height: 60px;
+	width: 50%;
+	text-align: center;
+	font-size: 12px;
+	padding: 5px 5px;
+}
+.second {
+	max-height: 720px;
+	max-width: 100%;
+}
+.getTo { 
+	margin-top: 20px;
+	font-size: 26px;
+}
+.letsMake{
+	margin-top: 10px;
+	font-size: 16px;
+	
+}
+.orangethings {
+	text-align: center;
+	padding-top: 50px;
+
+}
+.icon1, .software{
+	padding-top: 0px;
+}
+.choose{
+	padding-bottom: 20px;
+}
+.testimonial {
+	padding-top: 250px;
+	font-size: 30px;
+}
+.lesley {
+	font-size: 20px;
+}
+
+}
